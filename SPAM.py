@@ -7,13 +7,11 @@ import requests
 import os, sys, requests, random
 import time
 from random import choice, randint, shuffle
-ip = requests.get('https://api.ipify.org').text.strip()
-loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].lower()
 print('\n')
 print('================================')
 print('TOOL SPAM BY KHANG PHAN')
-print('IP của bạn: '+ip)
-print('Location: '+loc)
+
+
 print('================================'+'\n')
 phone=input("-> Nhập SĐT (Lưu Ý Bỏ Số 0 Ở Đầu): " )
 time_delay = input('-> Time Delay: ')
