@@ -7,6 +7,7 @@ import requests
 import os, sys, requests, random
 import time
 from random import choice, randint, shuffle
+os.system('CLS')
 print('\n')
 print('================================')
 print('TOOL SPAM BY KHANG PHAN')
