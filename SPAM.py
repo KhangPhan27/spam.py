@@ -7,13 +7,13 @@ import requests
 import os, sys, requests, random
 import time
 from random import choice, randint, shuffle
-
+os.system('clear')
 print('\n')
-print('================================')
+print('==========================')
 print('TOOL SPAM BY KHANG PHAN')
 
 
-print('================================'+'\n')
+print('==========================='+'\n')
 phone=input("-> Nhập SĐT (Lưu Ý Bỏ Số 0 Ở Đầu): " )
 time_delay = input('-> Time Delay: ')
 while True:
